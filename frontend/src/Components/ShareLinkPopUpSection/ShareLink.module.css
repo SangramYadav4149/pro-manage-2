@@ -1,0 +1,33 @@
+.share_link_container {
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 80px;
+  border-radius: 0.6rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.share_link_container .share_link_box {
+  width: 460px;
+  height: 2.4rem;
+}
+.share_link_container .share_link_text {
+  width: max-content;
+  font-weight: 500;
+}
+.share_link_container .share_link_section {
+  width: 460px;
+  height: 2.4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid #17a2b8;
+  cursor: pointer;
+}
+.share_link_container .copy_icon {
+  width: max-content;
+  margin-bottom: -6px;
+  color: #17a2b8;
+}

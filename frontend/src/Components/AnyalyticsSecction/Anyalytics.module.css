@@ -1,0 +1,57 @@
+.anyalytics_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1.8rem;
+  padding-top: 1rem;
+  row-gap: 2rem;
+}
+.anyalytics_container .section_title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.anyalytics_container .anyalytics_section {
+  width: max-content;
+  display: flex;
+  justify-content: start;
+  column-gap: 1rem;
+}
+.anyalytics_container .anyalytics_box {
+  width: 300px;
+  height: 150px;
+  background-color: #f9fcff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 1rem;
+}
+.anyalytics_container .anyalytics_box .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #90c4cc;
+}
+.anyalytics_container .anyalytics_box .detail_sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anyalytics_container .anyalytics_box .detail_box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  column-gap: 0.6rem;
+}
+.anyalytics_container .anyalytics_box .anyalytics_info {
+  font-weight: 500;
+}
+
+.anyalytics_container .anyalytics_box .detail_box .task_title {
+  font-weight: 400;
+}

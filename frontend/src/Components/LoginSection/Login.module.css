@@ -1,0 +1,179 @@
+.login_container {
+  display: flex;
+}
+.right_container {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1.4rem;
+}
+.right_container .title_text {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #343434;
+}
+.input_placeholder {
+  top: 13%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 4rem;
+  column-gap: 0.3rem;
+  position: absolute;
+  left: 3%;
+}
+.right_container .container_up {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+}
+.login_container .login_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.2rem;
+}
+.label {
+  width: max-content;
+  font-size: 1rem;
+}
+.form {
+  width: 20rem;
+}
+.login_container .input {
+  height: 2.2rem;
+  width: 18rem;
+  border: 2px solid gray;
+  border-radius: 0.4rem;
+}
+.login_container .mail_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+  left: 0rem;
+  top: -1px;
+}
+.login_container .lock_icon {
+  position: absolute;
+  font-size: 1.4rem;
+  width: max-content;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+.login_container .input_box {
+  position: relative;
+}
+.login_container .input {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+.login_container .left_container {
+  width: 60vw;
+  height: 100vh;
+  background-color: #17a2b8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 1rem;
+}
+.container_down {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.5rem;
+}
+.login_container .container_down .login_btn {
+  width: 20rem;
+  height: 2.5rem;
+  background-color: #17a2b8;
+  border-radius: 1.2rem;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_up .eye {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  font-size: 1.4rem;
+  color: gray;
+  cursor: pointer;
+}
+.login_container .container_down .register_btn {
+  width: 20rem;
+  height: 2.5rem;
+  color: #17a2b8;
+  border-radius: 1.2rem;
+  border: none;
+  color: #17a2b8;
+  border: 1px solid #17a2b8;
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container_down .register_btn:hover {
+  color: white;
+
+  border: none;
+  background-color: #17a2b8;
+
+  transition: 0.3s all ease-in-out;
+}
+.container_down .no_account {
+  color: gray;
+}
+.left_container .text_flex {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  align-items: center;
+}
+.text_flex .big_tag {
+  font-size: 33px;
+  color: white;
+}
+.text_flex .small_tag {
+  font-size: 19px;
+  color: white;
+}
+.left_container .image {
+  width: max-content;
+  position: relative;
+}
+.left_container .big_img {
+  position: relative;
+  z-index: 6;
+}
+.left_container .round_background {
+  top: -10%;
+  left: -4%;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #317f8b;
+  position: absolute;
+  z-index: 1;
+}
+.right_container .input_error_msg {
+  font-size: 0.8rem;
+  color: red;
+  display: block;
+  height: 1rem;
+}
